@@ -1,0 +1,116 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+/* NAV BAR */
+.navbar {
+    background-color: #030912;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none !important;
+}
+
+.navbar-brand img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.navbar-nav {
+    margin-left: auto; 
+}
+
+.nav-link {
+    color: white;
+    margin: 0 10px;
+}
+
+.nav-link:hover {
+    color: #f8f9fa; 
+    background-color: transparent; 
+}
+
+.nav-link.active {
+    color: #f8f9fa;
+}
+.navbar {
+    background-color: #030912;
+}
+
+
+.navbar-brand {
+    display: flex;
+    align-items: center; 
+    color: white; 
+}
+
+.navbar-brand img {
+    width: 50px;
+    height: 50px; 
+    border-radius: 50%; 
+    margin-right: 10px; 
+}
+
+.nav-link {
+    color: white; 
+}
+
+.nav-link.active {
+    color: #f8f9fa; 
+}
+.navbar-brand {
+    text-decoration: none !important;
+    color: white !important; 
+} 
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url('image/OIP.jpg');
+    background-size: 100% 100%;
+} 
+
+.team-section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.card-container {
+    border-radius: 15px;
+    border: 1px solid #071428;
+    overflow: hidden;
+    background-color: #071428;
+}
+
+.rounded-square {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    width: 100%; 
+    max-width: 300px; 
+}
+
+
+main {
+    padding: 50px 0;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+
+footer p {
+    color: white;
+}

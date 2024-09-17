@@ -1,0 +1,155 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+  
+.header {
+    width: 100%;
+    background: #545353;
+}
+  
+.navbar {
+    background: #f8f9fa;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+  
+.container-fluid {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+  
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    color: #333;
+    text-decoration: none;
+    font-size: 15px;
+}
+  
+.navbar-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+  
+.nav-list {
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+}
+  
+.nav-item {
+    margin: 0 10px;
+}
+  
+.nav-link {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 15px;
+    font-size: 16px;
+}
+  
+.nav-link:hover {
+    background: #007bff;
+    color: #fff;
+    border-radius: 5px;
+} 
+
+.contact-section {
+    background-color: #f8f9fa;
+}
+
+.intro-container {
+    background-color: #007bff;
+    color: white;
+}
+
+.intro-container p {
+    margin-bottom: 0;
+}
+
+.form-container {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 100%; 
+}
+
+.form-row {
+    display: flex;
+    align-items: center;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+
+.form-label {
+    flex: 0 0 30%;
+    text-align: right;
+    margin-right: 1rem;
+    font-size: 0.875rem; 
+}
+
+.form-control {
+    flex: 1;
+    border-radius: 0.25rem;
+    max-width: 100%; 
+}
+
+input.form-control, 
+textarea.form-control {
+    max-width: 100%;
+}
+
+textarea.form-control {
+    resize: vertical;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.btn-dark {
+    background-color: #343a40;
+    color: white;
+}
+
+.btn-dark:hover {
+    background-color: #495057;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+
+footer {
+    background-color: #132E4D;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+}
